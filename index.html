@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ahmed Fesokh — Head of Compliance | AML &amp; Financial Crime</title>
+<meta name="description" content="Ahmed Fesokh — Head of Compliance. 10+ years leading AML/ATF compliance, enterprise risk, regulatory governance, and financial crime oversight across banking and financial services.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #0F1B2E;
+    --navy-2: #16263D;
+    --paper: #F6F4EE;
+    --paper-2: #EDEAE1;
+    --slate: #2C4257;
+    --brass: #B08D57;
+    --brass-light: #D4B683;
+    --ink: #1B2430;
+    --ink-soft: #4A5568;
+    --line: #D8D2C2;
+    --ok: #3E6259;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection{ background: var(--brass-light); color: var(--navy); }
+  h1,h2,h3{
+    font-family: 'Source Serif 4', serif;
+    font-weight: 600;
+    color: var(--navy);
+    letter-spacing: -0.01em;
+  }
+  .mono{ font-family: 'IBM Plex Mono', monospace; }
+  a{ color: inherit; }
+  .wrap{ max-width: 980px; margin: 0 auto; padding: 0 32px; }
+  @media (max-width: 640px){ .wrap{ padding: 0 20px; } }
+
+  .skip-link{
+    position:absolute; left:-999px; top:0; background:var(--navy); color:var(--paper);
+    padding:10px 16px; z-index:200;
+  }
+  .skip-link:focus{ left: 12px; top: 12px; }
+
+  .filebar{
+    background: var(--navy);
+    color: var(--paper);
+    padding: 10px 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+  .filebar .wrap{
+    display:flex; justify-content:space-between; align-items:center; flex-wrap: wrap; gap: 6px;
+    color: #A9B7C6;
+  }
+  .filebar strong{ color: var(--brass-light); }
+
+  .hero{
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
+    color: var(--paper);
+    padding: 64px 0 96px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before{
+    content:"";
+    position:absolute; inset:0;
+    background-image: repeating-linear-gradient(
+      to bottom, rgba(255,255,255,0.035) 0px, rgba(255,255,255,0.035) 1px, transparent 1px, transparent 38px
+    );
+    pointer-events:none;
+  }
+  .hero-inner{ position:relative; z-index:1; }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--brass-light);
+    display:flex; align-items:center; gap: 10px;
+    margin-bottom: 22px;
+  }
+  .eyebrow .dot{
+    width:7px; height:7px; border-radius:50%; background: var(--ok);
+    box-shadow: 0 0 0 3px rgba(62,98,89,0.25);
+    display:inline-block;
+  }
+  .hero h1{
+    color: var(--paper);
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    line-height: 1.08;
+    max-width: 16ch;
+  }
+  .hero .role{
+    margin-top: 14px;
+    font-size: 1.15rem;
+    color: #C7D0DA;
+    max-width: 54ch;
+  }
+  .hero .role strong{ color: var(--brass-light); font-weight: 500; }
+  .hero-meta{
+    margin-top: 40px;
+    display:flex; flex-wrap:wrap; gap: 28px 40px;
+    border-top: 1px solid rgba(255,255,255,0.14);
+    padding-top: 26px;
+  }
+  .hero-meta div{ font-size: 13px; }
+  .hero-meta .label{
+    font-family:'IBM Plex Mono', monospace;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: #7E8FA1; font-size: 11px; margin-bottom: 6px;
+  }
+  .hero-meta .val{ color: var(--paper); font-size: 15px; }
+  .hero-cta{ margin-top: 36px; display:flex; gap: 14px; flex-wrap: wrap; }
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding: 12px 22px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 13px; letter-spacing: 0.03em;
+    border: 1px solid var(--brass);
+    color: var(--paper);
+    text-decoration:none;
+    transition: all .18s ease;
+  }
+  .btn.solid{ background: var(--brass); color: var(--navy); font-weight: 600; }
+  .btn:hover{ background: var(--brass-light); color: var(--navy); border-color: var(--brass-light); }
+  .btn:focus-visible{ outline: 2px solid var(--brass-light); outline-offset: 3px; }
+
+  section{ padding: 72px 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type{ border-bottom: none; }
+  .sec-head{
+    display:flex; align-items:baseline; gap: 16px; margin-bottom: 40px;
+  }
+  .sec-num{
+    font-family:'IBM Plex Mono', monospace;
+    color: var(--brass);
+    font-size: 13px;
+  }
+  .sec-head h2{ font-size: 1.7rem; }
+  .sec-sub{
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 12px; color: var(--ink-soft); text-transform: uppercase; letter-spacing: 0.08em;
+    margin-top: -34px; margin-bottom: 38px; padding-left: 42px;
+  }
+
+  .summary-grid{ display:grid; grid-template-columns: 1.4fr 1fr; gap: 48px; }
+  @media (max-width: 760px){ .summary-grid{ grid-template-columns: 1fr; } }
+  .summary-grid p{ color: var(--ink-soft); font-size: 1.02rem; }
+  .summary-grid p + p{ margin-top: 16px; }
+  .focus-box{
+    background: var(--paper-2);
+    border: 1px solid var(--line);
+    padding: 24px;
+  }
+  .focus-box .label{
+    font-family:'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--brass); margin-bottom: 14px;
+  }
+  .focus-list{ list-style:none; }
+  .focus-list li{
+    padding: 10px 0; border-bottom: 1px dashed var(--line);
+    display:flex; justify-content: space-between; font-size: 14px; gap: 10px;
+  }
+  .focus-list li:last-child{ border-bottom:none; }
+  .focus-list .tag{ font-family:'IBM Plex Mono', monospace; font-size: 11px; color: var(--ink-soft); white-space:nowrap; }
+
+  .trail{ position: relative; padding-left: 32px; }
+  .trail::before{
+    content:""; position:absolute; left: 5px; top: 6px; bottom: 6px; width: 1px;
+    background: var(--line);
+  }
+  .entry{ position: relative; padding-bottom: 42px; }
+  .entry:last-child{ padding-bottom: 0; }
+  .entry::before{
+    content:""; position:absolute; left: -32px; top: 4px;
+    width: 11px; height: 11px; border-radius: 50%;
+    background: var(--paper); border: 2px solid var(--brass);
+  }
+  .entry.current::before{ background: var(--brass); }
+  .entry .when{
+    font-family:'IBM Plex Mono', monospace; font-size: 12px; color: var(--brass);
+    text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 6px;
+  }
+  .entry h3{ font-size: 1.2rem; margin-bottom: 2px; }
+  .entry .org{ color: var(--ink-soft); font-size: 14px; margin-bottom: 12px; }
+  .entry ul{ padding-left: 18px; }
+  .entry li{ color: var(--ink-soft); font-size: 14.5px; margin-bottom: 7px; }
+
+  .matrix{ display:grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+  @media (max-width: 700px){ .matrix{ grid-template-columns: repeat(2,1fr); } }
+  @media (max-width: 460px){ .matrix{ grid-template-columns: 1fr; } }
+  .cell{ background: var(--paper); padding: 22px 20px; }
+  .cell h4{
+    font-family:'IBM Plex Mono', monospace; font-size: 12px; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--slate); margin-bottom: 12px;
+  }
+  .cell ul{ list-style:none; }
+  .cell li{ font-size: 14px; color: var(--ink-soft); padding: 5px 0; }
+  .cell li::before{ content:"— "; color: var(--brass); }
+
+  .seals{ display:flex; gap: 20px; flex-wrap: wrap; }
+  .seal{
+    width: 178px; text-align:center; padding: 22px 14px;
+    border: 1px solid var(--brass);
+    position: relative;
+  }
+  .seal .ring{
+    width: 54px; height: 54px; margin: 0 auto 12px;
+    border: 2px solid var(--brass);
+    border-radius: 50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:'Source Serif 4', serif; font-weight:700; color: var(--brass); font-size: 15px;
+  }
+  .seal .name{ font-size: 13px; font-weight:600; color: var(--navy); }
+  .seal .status{
+    font-family:'IBM Plex Mono', monospace; font-size: 10px; color: var(--ink-soft);
+    text-transform: uppercase; letter-spacing: 0.05em; margin-top: 4px;
+  }
+  .seal.pending{ border-style: dashed; opacity: 0.75; }
+
+  .edu-row{
+    display:flex; justify-content: space-between; align-items:baseline;
+    padding: 16px 0; border-bottom: 1px solid var(--line); flex-wrap: wrap; gap: 6px;
+  }
+  .edu-row:last-child{ border-bottom:none; }
+  .edu-row .inst{ font-weight: 600; color: var(--navy); }
+  .edu-row .prog{ color: var(--ink-soft); font-size: 14px; }
+  .edu-row .when{ font-family:'IBM Plex Mono', monospace; font-size: 12px; color: var(--brass); }
+
+  .achieve-list{ list-style:none; }
+  .achieve-list li{
+    display:flex; gap: 14px; padding: 14px 0; border-bottom: 1px dashed var(--line);
+    color: var(--ink-soft); font-size: 14.5px;
+  }
+  .achieve-list li:last-child{ border-bottom:none; }
+  .achieve-list .mark{ font-family:'IBM Plex Mono', monospace; color: var(--brass); flex-shrink:0; }
+
+  .contact{
+    background: var(--navy);
+    color: var(--paper);
+    padding: 72px 0;
+  }
+  .contact h2{ color: var(--paper); }
+  .contact .sec-num{ color: var(--brass-light); }
+  .contact-box{
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.14);
+    padding: 32px;
+    display:grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  }
+  @media (max-width: 700px){ .contact-box{ grid-template-columns: 1fr; } }
+  .contact-box .item .label{
+    font-family:'IBM Plex Mono', monospace; font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.08em; color: #7E8FA1; margin-bottom: 8px;
+  }
+  .contact-box .item .val{ font-size: 15px; }
+  .contact-box .item a{ text-decoration: underline; text-decoration-color: var(--brass); text-underline-offset: 3px; }
+  .contact-box .item a:hover{ color: var(--brass-light); }
+
+  footer{
+    padding: 28px 0; text-align:center;
+    font-family:'IBM Plex Mono', monospace; font-size: 11px; color: var(--ink-soft);
+    background: var(--paper-2);
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior: auto; }
+    *{ transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<div class="filebar">
+  <div class="wrap">
+    <span>FILE REF: <strong class="mono">AF-COMPLIANCE-2026</strong></span>
+    <span>STATUS: <strong>OPEN TO OPPORTUNITIES</strong></span>
+    <span>LOCATION: <strong>TORONTO, ON</strong></span>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap hero-inner">
+    <div class="eyebrow"><span class="dot"></span> Compliance &amp; Financial Crime Profile</div>
+    <h1>Ahmed Fesokh</h1>
+    <p class="role">Senior financial crime and risk oversight professional with <strong>10+ years</strong> leading AML/ATF compliance, enterprise risk assessment, and regulatory governance across banking and financial services.</p>
+
+    <div class="hero-meta">
+      <div>
+        <div class="label">Current Role</div>
+        <div class="val">Head of Compliance — Monex Canada Inc.</div>
+      </div>
+      <div>
+        <div class="label">Experience</div>
+        <div class="val">10+ years, Canada &amp; Middle East</div>
+      </div>
+      <div>
+        <div class="label">Certifications</div>
+        <div class="val">CAMS · CAMS-Audit · CGSS</div>
+      </div>
+    </div>
+
+    <div class="hero-cta">
+      <a href="#experience" class="btn solid">Review Case History →</a>
+      <a href="mailto:ahmedfesokh@gmail.com" class="btn">Contact</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section id="summary">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">01</span><h2>Professional Summary</h2></div>
+      <div class="summary-grid">
+        <div>
+          <p>Senior financial crime and risk oversight professional with 10+ years of progressive experience leading AML/ATF compliance, enterprise risk assessments, regulatory governance, and financial crime oversight across banking and financial services organizations.</p>
+          <p>Proven expertise developing risk-based frameworks, conducting qualitative and quantitative risk analysis, leading regulatory examinations, and advising executive leadership on emerging financial crime risks, sanctions exposure, and compliance strategy. Extensive experience collaborating with regulators, senior stakeholders, and cross-functional teams to strengthen governance and support regulatory readiness.</p>
+        </div>
+        <div class="focus-box">
+          <div class="label">Regulatory Exposure</div>
+          <ul class="focus-list">
+            <li>FINTRAC / PCMLTFA <span class="tag">CANADA</span></li>
+            <li>Sanctions &amp; PEP Screening <span class="tag">GLOBAL</span></li>
+            <li>AML/ATF Regulatory Regimes <span class="tag">JORDAN</span></li>
+            <li>Regulatory Examinations &amp; Audit <span class="tag">CROSS-BORDER</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">02</span><h2>Experience</h2></div>
+      <div class="sec-sub">Audit trail — most recent first</div>
+
+      <div class="trail">
+        <div class="entry current">
+          <div class="when">2025 — Present</div>
+          <h3>Head of Compliance</h3>
+          <div class="org">Monex Canada Inc. · Toronto, ON</div>
+          <ul>
+            <li>Developed and enhanced enterprise AML/ATF risk management frameworks, policies, and controls aligned with FINTRAC and PCMLTFA regulatory requirements.</li>
+            <li>Led organization-wide risk assessments identifying emerging financial crime threats, sanctions exposure, and operational vulnerabilities.</li>
+            <li>Prepared strategic risk reports and briefings for executive leadership to support risk-based decision-making.</li>
+            <li>Collaborated with internal stakeholders, external auditors, and regulatory bodies during compliance examinations, independent reviews, and remediation initiatives.</li>
+            <li>Directed analysis of qualitative and quantitative risk indicators to support ongoing monitoring and prioritization.</li>
+            <li>Oversaw regulatory reporting and investigative processes including suspicious transaction reporting and high-risk client escalations.</li>
+            <li>Developed compliance training programs to strengthen organizational awareness of AML, sanctions, and regulatory obligations.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="when">2024 — 2025</div>
+          <h3>Compliance Manager</h3>
+          <div class="org">Monex Canada Inc. · Toronto, ON</div>
+          <ul>
+            <li>Optimized AML monitoring processes and compliance procedures to improve investigation workflow and regulatory reporting accuracy.</li>
+            <li>Led financial crime investigations and escalations, coordinating closely with operational and settlements teams.</li>
+            <li>Supported regulatory audits and internal compliance reviews while implementing corrective control enhancements.</li>
+            <li>Advised front office and operational teams on compliance risks associated with high-value FX transactions.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="when">2023 — 2024</div>
+          <h3>Senior Compliance Analyst</h3>
+          <div class="org">Monex Canada Inc. · Toronto, ON</div>
+          <ul>
+            <li>Conducted complex AML investigations and prepared Suspicious Transaction Reports in accordance with FINTRAC requirements.</li>
+            <li>Led enhanced due diligence reviews for high-risk clients including PEPs and high-risk jurisdictions.</li>
+            <li>Acted as subject matter expert on Canadian financial crime regulations across internal teams.</li>
+            <li>Mentored junior analysts and helped optimize compliance workflows and case management processes.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="when">2022 — 2023</div>
+          <h3>AML Analyst</h3>
+          <div class="org">Monex Canada Inc. · Toronto, ON</div>
+          <ul>
+            <li>Performed transaction monitoring, sanctions screening, and adverse media research for client onboarding and ongoing monitoring.</li>
+            <li>Investigated alerts generated by AML monitoring systems and escalated potential suspicious activity.</li>
+            <li>Supported KYC documentation reviews and client risk classification processes.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="when">2020 — 2021</div>
+          <h3>Senior Specialist, Financial Crime Advisory</h3>
+          <div class="org">PwC Canada · London, ON</div>
+          <ul>
+            <li>Conducted enterprise financial crime risk assessments and regulatory compliance reviews for major financial institutions.</li>
+            <li>Analyzed structured and unstructured data sources to identify financial crime risks, sanctions exposure, and control weaknesses.</li>
+            <li>Prepared risk assessment reports, governance documentation, and strategic recommendations for senior stakeholders.</li>
+            <li>Coordinated stakeholder meetings and advisory discussions to validate findings and support remediation initiatives.</li>
+          </ul>
+        </div>
+
+        <div class="entry">
+          <div class="when">2015 — 2019</div>
+          <h3>Regulatory Compliance Leadership Roles</h3>
+          <div class="org">Al Rajhi Bank · Amman, Jordan</div>
+          <ul>
+            <li>Progressed through Compliance Officer, Senior Compliance Officer, and Regulatory Compliance Supervisor roles.</li>
+            <li>Led AML investigations, transaction monitoring oversight, and compliance risk assessments across banking operations.</li>
+            <li>Supported regulatory governance initiatives through preparation of risk reports, compliance assessments, and executive committee briefings.</li>
+            <li>Coordinated cross-functional stakeholder meetings to address regulatory findings and strengthen internal controls.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">03</span><h2>Core Competencies</h2></div>
+      <div class="matrix">
+        <div class="cell">
+          <h4>Investigations &amp; Monitoring</h4>
+          <ul>
+            <li>AML/ATF &amp; sanctions compliance</li>
+            <li>Transaction monitoring &amp; alert review</li>
+            <li>Suspicious transaction reporting</li>
+            <li>Enhanced due diligence (PEPs, high-risk)</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h4>Governance &amp; Oversight</h4>
+          <ul>
+            <li>Enterprise risk oversight &amp; governance</li>
+            <li>Risk assessment framework development</li>
+            <li>Regulatory examinations &amp; audit readiness</li>
+            <li>Policy &amp; procedure development</li>
+          </ul>
+        </div>
+        <div class="cell">
+          <h4>Strategy &amp; Advisory</h4>
+          <ul>
+            <li>Financial crime risk analytics</li>
+            <li>Emerging risk &amp; trend analysis</li>
+            <li>Executive &amp; board-level advisory</li>
+            <li>Stakeholder &amp; governance committees</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="credentials">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">04</span><h2>Certifications</h2></div>
+      <div class="seals">
+        <div class="seal">
+          <div class="ring">CAMS</div>
+          <div class="name">CAMS</div>
+          <div class="status">2016</div>
+        </div>
+        <div class="seal">
+          <div class="ring">C-A</div>
+          <div class="name">CAMS – Audit</div>
+          <div class="status">2018</div>
+        </div>
+        <div class="seal">
+          <div class="ring">CGSS</div>
+          <div class="name">Certified Global Sanctions Specialist</div>
+          <div class="status">2023</div>
+        </div>
+        <div class="seal pending">
+          <div class="ring">C3O</div>
+          <div class="name">Certified Crypto Compliance Officer</div>
+          <div class="status">In progress</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">05</span><h2>Education</h2></div>
+      <div class="edu-row">
+        <div>
+          <div class="inst">University of Jordan</div>
+          <div class="prog">MBA — Finance</div>
+        </div>
+        <div class="when">2013 — 2016</div>
+      </div>
+      <div class="edu-row">
+        <div>
+          <div class="inst">University of Jordan</div>
+          <div class="prog">Bachelor's Degree — Management Information Systems</div>
+        </div>
+        <div class="when">2006 — 2010</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="wrap">
+      <div class="sec-head"><span class="sec-num">06</span><h2>Selected Achievements</h2></div>
+      <ul class="achieve-list">
+        <li><span class="mark">→</span> Led enterprise AML/ATF compliance oversight programs across banking and financial services organizations in Canada and internationally.</li>
+        <li><span class="mark">→</span> Directed complex financial crime investigations and regulatory reporting activities involving high-risk clients, sanctions exposure, and suspicious transaction analysis.</li>
+        <li><span class="mark">→</span> Supported regulatory audits, independent reviews, and remediation initiatives by coordinating stakeholder engagement, risk documentation, and control enhancements.</li>
+        <li><span class="mark">→</span> Developed and enhanced risk-based compliance frameworks and governance processes supporting organizational resilience and regulatory readiness.</li>
+        <li><span class="mark">→</span> Advised executive leadership on emerging financial crime risks, regulatory developments, and strategic compliance priorities.</li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-num">07</span><h2>Contact</h2></div>
+    <div class="contact-box">
+      <div class="item">
+        <div class="label">Email</div>
+        <div class="val"><a href="mailto:ahmedfesokh@gmail.com">ahmedfesokh@gmail.com</a></div>
+      </div>
+      <div class="item">
+        <div class="label">Phone</div>
+        <div class="val"><a href="tel:+13658881319">+1 365 888 1319</a></div>
+      </div>
+      <div class="item">
+        <div class="label">LinkedIn</div>
+        <div class="val"><a href="https://www.linkedin.com/in/ahmedfesokh/" target="_blank" rel="noopener">linkedin.com/in/ahmedfesokh</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> Ahmed Fesokh — Head of Compliance | AML &amp; Financial Crime
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
