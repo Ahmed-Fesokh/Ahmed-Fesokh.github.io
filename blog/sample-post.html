@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Post Title] — Ahmed Fesokh</title>
+<meta name="description" content="[One-line summary of the post for search engines and link previews.]">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,340;9..144,440;9..144,560&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg: #FAF8F3; --bg-2: #F1EDE3; --ink: #24302A; --ink-soft: #5C6960;
+    --forest: #3F5645; --forest-light: #6B8068; --clay: #B9AF9C; --line: #E3DCC9; --card: #FFFFFF;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{ background: var(--bg); color: var(--ink); font-family:'Inter',sans-serif; font-weight:300; line-height:1.75; }
+  h1,h2,h3{ font-family:'Fraunces', serif; font-weight:440; color: var(--forest); letter-spacing:-0.01em; }
+  a{ color: var(--forest); }
+  .wrap{ max-width: 720px; margin: 0 auto; padding: 0 40px; }
+  @media (max-width:640px){ .wrap{ padding: 0 24px; } }
+
+  nav{ border-bottom: 1px solid var(--line); background: rgba(250,248,243,0.92); position:sticky; top:0; }
+  .nav-inner{ max-width:900px; margin:0 auto; padding: 22px 40px; display:flex; justify-content:space-between; align-items:center; }
+  @media (max-width:640px){ .nav-inner{ padding: 18px 24px; } }
+  .nav-brand{ font-family:'Fraunces', serif; font-size:19px; color: var(--forest); text-decoration:none; }
+  .back-link{ font-size: 13px; color: var(--forest-light); text-decoration:none; }
+  .back-link:hover{ text-decoration: underline; }
+
+  header.post-head{ padding: 64px 0 40px; }
+  .meta{ font-size:12px; text-transform:uppercase; letter-spacing:0.08em; color: var(--forest-light); margin-bottom:18px; font-weight:500; }
+  header.post-head h1{ font-size: clamp(2rem, 4.5vw, 2.8rem); line-height:1.15; }
+  .dek{ margin-top: 18px; font-size: 1.1rem; color: var(--ink-soft); font-weight:300; }
+
+  .cover{
+    aspect-ratio: 16/9; background: var(--bg-2); border-radius: 16px; margin: 36px 0 8px;
+    display:flex; align-items:center; justify-content:center; font-size: 12px; color: var(--clay);
+    text-align:center; padding: 20px;
+  }
+
+  main{ padding-bottom: 90px; }
+  .post-body p{ margin-bottom: 22px; font-size: 1.05rem; color: var(--ink); }
+  .post-body h2{ font-size: 1.4rem; margin: 44px 0 16px; }
+  .post-body h3{ font-size: 1.15rem; margin: 32px 0 12px; }
+  .post-body ul, .post-body ol{ margin: 0 0 22px 22px; }
+  .post-body li{ margin-bottom: 8px; color: var(--ink); }
+  .post-body blockquote{
+    border-left: 3px solid var(--forest-light); padding-left: 20px; margin: 28px 0;
+    font-family:'Fraunces', serif; font-style: italic; color: var(--forest); font-size: 1.15rem;
+  }
+  .placeholder{ color: #A65B4E; }
+
+  .post-footer{
+    margin-top: 56px; padding-top: 28px; border-top: 1px solid var(--line);
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap: 16px;
+  }
+  .share-note{ font-size: 13px; color: var(--ink-soft); }
+  .btn{
+    display:inline-flex; padding: 11px 22px; border-radius: 999px; background: var(--forest);
+    color: #fff; text-decoration:none; font-size: 13px;
+  }
+  .btn:hover{ background: var(--forest-light); }
+
+  footer.site-footer{ padding: 40px 0; text-align:center; font-size:12px; color: var(--clay); }
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a href="../index.html" class="nav-brand">Ahmed Fesokh</a>
+    <a href="index.html" class="back-link">← All posts</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <header class="post-head">
+      <div class="meta placeholder">[Topic] · [Month Year] · [X min read]</div>
+      <h1 class="placeholder">[Post title — the thing you commented on, expanded]</h1>
+      <p class="dek placeholder">[One or two sentence subhead — what the post argues or explains.]</p>
+    </header>
+
+    <div class="cover placeholder">[Optional cover image — 16:9, drop in a real image or delete this div]</div>
+
+    <div class="post-body">
+      <p class="placeholder">[Opening paragraph — start with the LinkedIn post or comment that prompted this. "I recently commented on [topic] — here's the fuller version of that thought."]</p>
+
+      <h2 class="placeholder">[First subheading]</h2>
+      <p class="placeholder">[Body paragraph. Write like you're explaining this to a smart colleague outside compliance — clear, direct, no jargon you haven't defined.]</p>
+
+      <blockquote class="placeholder">[Optional: a pull-quote or key takeaway you want to stand out visually.]</blockquote>
+
+      <h2 class="placeholder">[Second subheading]</h2>
+      <p class="placeholder">[More body copy. Aim for 400–800 words total for a solid post — long enough to show depth, short enough that a recruiter or connection actually finishes it.]</p>
+
+      <h2 class="placeholder">[Closing thought / so-what]</h2>
+      <p class="placeholder">[Wrap with your take — what should change, what you're watching next, or what this means for teams doing this work.]</p>
+    </div>
+
+    <div class="post-footer">
+      <span class="share-note">Have thoughts? Reply on LinkedIn.</span>
+      <a href="https://www.linkedin.com/in/ahmedfesokh/" target="_blank" rel="noopener" class="btn">Discuss on LinkedIn</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">© <span id="year"></span> Ahmed Fesokh</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
